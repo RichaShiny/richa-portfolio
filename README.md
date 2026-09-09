@@ -1,39 +1,18 @@
-# Richa Tigiripally — Data Scientist Portfolio V2
+# Richa Tigiripally — Data Scientist Portfolio V4
 
-Custom static research portfolio. No framework or build step is required.
+Static portfolio site with a research-first information architecture.
 
-## Local preview
+## What changed
+- Animated data / decision-system hero graphic (SVG + JavaScript, no video asset)
+- Separate Projects and Research navigation
+- Research dropdown on desktop
+- Dedicated Research page for RAG and Nori work
+- Separate article and GitHub buttons on project/research cards
+- More spacious About page
+- Root-level article files to avoid nested static-route issues
 
-```bash
-python3 -m http.server 8080
-```
+## Deploy
+Upload all files in this folder to the root of the GitHub repository connected to Vercel.
+Do not upload the outer folder itself.
 
-Open http://localhost:8080.
-
-## Deploy to Vercel
-
-1. Put this folder in a GitHub repository.
-2. In Vercel, import the repository.
-3. Framework preset: **Other**.
-4. Build command: leave blank.
-5. Output directory: leave blank / project root.
-6. Deploy.
-7. Add `richatigiripally.com` and `www.richatigiripally.com` under the Vercel project's Domains settings.
-8. Copy the DNS values Vercel gives you into the DNS settings where your domain is registered.
-
-Keep Squarespace active until both domains resolve to the new deployment and HTTPS works.
-
-## Included
-
-- Responsive custom UI
-- Mobile navigation
-- Scroll reveal interactions
-- Research-style project cards
-- Long-form project article layouts
-- Inline SVG data visualization on the Nori article
-- SEO description, robots.txt, sitemap.xml
-- Vercel clean-URL configuration
-
-
-## V3 content alignment
-This version is aligned to Richa's September 2026 Data Scientist resume and prioritizes the three public GitHub projects listed there.
+The site uses direct `.html` URLs for reliability on static hosting.
