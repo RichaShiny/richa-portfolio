@@ -120,3 +120,15 @@ a{color:inherit;text-decoration:none}button{font:inherit}::selection{background:
 .project-card-icon{display:grid;place-items:center;width:44px;height:44px;color:var(--accent);background:rgba(215,255,100,.045);border:1px solid var(--line);border-radius:12px;margin-bottom:20px}
 .project-card-icon svg{width:25px;height:25px}
 .project-article-card:has(.project-card-icon) h2{margin-top:26px}
+
+.charge-diagram{margin:32px 0;padding:24px;border:1px solid var(--line);border-radius:18px;background:var(--panel)}
+.pipeline-inputs{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.pipeline-node{padding:18px;border:1px solid var(--line);border-radius:12px;text-align:center;background:var(--bg)}
+.pipeline-node strong{display:block;color:var(--text);font-size:15px;line-height:1.5}
+.pipeline-node span,.pipeline-node small{display:block;color:var(--muted);font-size:13px;line-height:1.6;margin-top:7px}
+.pipeline-highlight{border-color:var(--accent)}
+.pipeline-highlight strong,.pipeline-arrow{color:var(--accent)}
+.pipeline-arrow{text-align:center;padding:9px;font-size:23px}
+.charge-diagram figcaption{font-size:12px;line-height:1.7;color:var(--muted);margin-top:20px}
+.charge-table-wrap{overflow-x:auto;margin:28px 0}.charge-settings{width:100%;border-collapse:collapse;text-align:left;font-size:14px;line-height:1.7}.charge-settings caption{text-align:left;margin-bottom:12px;color:var(--text)}.charge-settings th,.charge-settings td{padding:12px;border-bottom:1px solid var(--line);vertical-align:top}.charge-settings td{color:var(--muted)}
+@media(max-width:650px){.pipeline-inputs{grid-template-columns:1fr}.charge-diagram{padding:14px}.pipeline-node{padding:14px}}
